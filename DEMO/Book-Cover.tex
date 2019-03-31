@@ -7,8 +7,8 @@
 %!TEX TS-program = xelatex
 
 \documentclass[12pt]{article}
-\usepackage[bottom=3cm]{geometry}                % See geometry.pdf to learn the layout options. There are lots.
-\geometry{letterpaper}                   % ... or a4paper or a5paper or ... 
+\usepackage[bottom=3cm, left=1in, right=1in]{geometry}                % See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   % ... or a4paper or a5paper or ...
 %\geometry{landscape}                % Activate for for rotated page geometry
 %\usepackage[parfill]{parskip}    % Activate to begin paragraphs with an empty line rather than an indent
 \usepackage{graphicx}
@@ -20,7 +20,7 @@
 
 %CJK Font Setup
 \usepackage[PunctStyle=kaiming,AutoFakeBold=false,AutoFakeSlant=false]{xeCJK}
-\setCJKmainfont[BoldFont={Songti SC Bold},ItalicFont={KaiTi}] {SimSun}
+\setCJKmainfont[BoldFont={Songti SC Bold}] {Songti SC Light}
 \setCJKsansfont[BoldFont={Heiti SC Medium}]{Heiti SC}
 \setCJKmonofont[BoldFont={Hiragino Sans GB W6}]{Hiragino Sans GB W3}
 
@@ -32,12 +32,12 @@
 \usepackage{fontspec,xltxtra,xunicode}
 \defaultfontfeatures{Mapping=tex-text}
 \setmainfont{Times New Roman}
-\setsansfont[Scale=MatchLowercase,Mapping=tex-text]{Calibri}
+\setsansfont[Scale=MatchLowercase,Mapping=tex-text]{Arial}
 \setmonofont[Scale=MatchLowercase]{Courier New}
 
 
-\author{Xu Deyuan $<$\href{mailto:xudeyuanghw@gmail.com}%
-            {xudeyuanghw@gmail.com}$>$}
+\author{Morty Smith $<$\href{mailto:morty@smith.com}%
+            {morty@smith.com}$>$}
 %\date{}                                         % Activate to display a given date or no date
 
 \newlength{\Han}
@@ -49,8 +49,8 @@
 
 \begin{flushright}
 \parbox[c]{6em}{ %
-{\small \makebox[\width][c]{学校代码:\quad10246 }\par
-\makebox[\width][c]{学\phantom{占位}号:\quad09110290005}}}
+{\small \makebox[\width][c]{学校代码:\quad10246}\par
+\makebox[\width][c]{学\phantom{占位}号:\quad 1234567890}}}
 \end{flushright}
 \vspace{\stretch{0.5}}
 
@@ -62,20 +62,20 @@
 
 \vspace{\stretch{0.5}}
 \begin{center}
-{\Huge \makebox [0.45\textwidth][s]{博士学位论文}\par}
+{\Huge \makebox [0.45\textwidth][s]{本科毕业论文}\par}
 \vspace{\stretch{1.5}}
-{\LARGE \textsf{液体火箭纵向耦合振动稳定性分析}\par}
+{\LARGE \textsf{莫蒂波与瑞克波的干涉作用}\par}
 \vspace{\stretch{0.5}}
-{\Large \textrm{Stability Analysis of Coupled Longitudinal Oscillation of Liquid Rocket}\par}
+{\Large \textrm{Interference between Morty Wave and Rick Wave}\par}
 
 \vspace{\stretch{2}}
 \parbox[c]{0.5\textwidth}{%
 \large \setlength{\baselineskip}{1.5\baselineskip}%
-\spreadCJK{8}{院系}:\quad 力学与工程科学系\par
-\spreadCJK{8}{专业}:\quad 流体力学\par
-\spreadCJK{8}{姓名}:\quad 徐得元\par
-\spreadCJK{8}{指导老师}:\quad 唐国安 \quad 教授\par
-\spreadCJK{8}{完成日期}:\quad 2014年4月1日}
+\spreadCJK{8}{院系}:\quad 基础医学院\par
+\spreadCJK{8}{专业}:\quad 基础医学\par
+\spreadCJK{8}{姓名}:\quad Morty Smith\par
+\spreadCJK{8}{指导老师}:\quad Rick Sanchez\par
+\spreadCJK{8}{完成日期}:\quad 2019年5月24日}
 \end{center}
 
-\end{document}  
+\end{document}

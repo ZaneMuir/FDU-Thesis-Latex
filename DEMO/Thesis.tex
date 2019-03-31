@@ -9,14 +9,15 @@
 \documentclass[a4paper, 12pt]{book}
 %Load FDU Style
 \usepackage{FDUThesis}
-\title{Pandoxie's Article}
-\author{Xu Deyuan $<$\href{mailto:xudeyuanghw@gmail.com}%
-            {xudeyuanghw@gmail.com}$>$}
-            
+\usepackage{gbt7714} %在正文中 \cite 文献
+\author{Morty Smith $<$\href{mailto:morty@smith.com}%
+            {morty@smith.com}$>$}
+
 %\date{}                                         % Activate to display a given date or no date
 
 \begin{document}
 %Use \thispagestyle{} fancy, plain, empty to redefine Per/Page Header
+\setlength{\baselineskip}{20pt}  % 20磅行间距
 
 \includepdf{Book-Cover.pdf}
 \thispagestyle{empty}
@@ -42,32 +43,25 @@
 
 \include{Intro}
 
-\include{Chapter01}
+\include{Methods}
 
-\include{Chapter02}
+\include{Results}
 
-\include{Chapter03}
+\include{Discussion}
 
-\include{Chapter04}
-%----------------------------Appendix-------------------------------!
-\appendix 
-
-\renewcommand{\thechapter}{附录{\Alph{chapter}}}
-
-%\chapter{公式推导}
+\include{Review}
 
 %----------------------------Back Matter-------------------------------!
 \backmatter
 
-\phantomsection
-\addcontentsline{toc}{chapter}{\bibname}
-\bibliographystyle{FDUbib}
-\bibliography{Pandoxie-BiB}
+% \phantomsection
+% \addcontentsline{toc}{chapter}{\bibname}
+% \bibliography{Pandoxie-BiB}
 %\nocite{*}
 
 \backchapter{致谢}
 
 \clearpage
-\printindex
+% \printindex
 
-\end{document} 
+\end{document}

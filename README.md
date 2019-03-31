@@ -1,3 +1,13 @@
+## Latex Thesis for Fudan University
+
+- 根据基础医学院对本科毕业论文的要求做了部分的调整。
+- 用[CTeX-org/gbt7714-bibtex-style](https://github.com/CTeX-org/gbt7714-bibtex-style)
+来插入文献。（文件要求参考文献格式符合国家标准）
+
+
+---
+原README内容：
+
 ##Latex Thesis for Fudan University
 该GIT库提供了基本满足**复旦大学**博士（硕士）毕业论文格式要求的Latex模板。
 
@@ -9,7 +19,7 @@
 建议首先下载**DEMO**文件夹下内容进行测试：
 -  运行**xelatex**编译器编译**thesis.tex**
 -  运行**Bibtex**编译器生成参考文献索引
--  **再次/多次**运行**xelatex**生成交叉引用和参考文献等 
+-  **再次/多次**运行**xelatex**生成交叉引用和参考文献等
 
 ***
 DEMO文件夹提供了使用该模板的一篇删减版博士论文，仅供不熟悉Latex使用的同学参考。鉴于水平有限，可能不免贻笑大方。
@@ -34,5 +44,4 @@ DEMO文件夹提供了使用该模板的一篇删减版博士论文，仅供不�
 
 ## License
 
-The content of this project itself is licensed under the [Creative Commons Attribution 3.0 license](http://creativecommons.org/licenses/by/3.0/us/deed.en_US)  
 The underlying source code used to format and display that content is licensed under the [MIT license](http://opensource.org/licenses/mit-license.php).
